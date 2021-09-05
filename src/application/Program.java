@@ -13,7 +13,7 @@ public class Program {
 		list.add(new Product("TV", 900.0));
 		list.add(new Product("Notebook", 1200.0));
 		list.add(new Product("Tablet", 400.0));
-		//solução com expressão lambda
+		//solução com expressão lambda 
 			 Comparator <Product> comp = (p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());	
 	
 			 for (Product p : list) {
@@ -22,7 +22,7 @@ public class Program {
 	}
 }
 		
-	  /*classe anonima
+	  /*classe anonima criei o token
 			Comparator <Product> comp = new Comparator <Product>() {
 
 			 * 	@Override
